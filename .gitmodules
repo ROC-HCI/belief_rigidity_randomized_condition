@@ -1,0 +1,6 @@
+[submodule "packages/customcore2"]
+	path = packages/customcore2
+	url = https://github.com/schen133/meteor-empirica-core.git
+[submodule "packages/customcore"]
+	path = packages/customcore
+	url = https://github.com/schen133/meteor-empirica-core.git

@@ -1,0 +1,26 @@
+{
+  "name": "name",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.10.2",
+    "bcrypt": "^5.1.0",
+    "cpulimit": "^1.1.4",
+    "meteor-node-stubs": "0.4.1",
+    "minimist": "^1.2.8",
+    "mongodb": "^2.0.14",
+    "perf_hooks": "^0.0.1",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-router-dom": "4.3.1",
+    "simpl-schema": "1.10.2"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.js",
+      "server": "server/main.js"
+    }
+  }
+}

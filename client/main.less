@@ -1,0 +1,307 @@
+
+// .h1Testing{
+
+// }
+// .round {
+//   display: flex;
+//   flex-direction: column;
+//   height: 100%;
+
+//   .content {
+//     flex-grow: 1;
+//     height: 100%;
+//     display: flex;
+//     align-items: flex-start;
+//   }
+
+//   // .player-profile {
+//   //   display: flex;
+//   //   flex-direction: column;
+//   //   width: 24rem;
+//   //   min-height: 100%;
+//   //   align-items: center;
+//   //   padding: 3rem 4rem;
+
+//   //   .profile-avatar {
+//   //     width: 8rem;
+//   //     height: 8rem;
+//   //     margin: 3rem 0;
+//   //   }
+
+//   //   .profile-score {
+//   //     text-align: center;
+//   //     span {
+//   //       font-size: 3rem;
+//   //       font-weight: bold;
+//   //     }
+//   //   }
+
+//   //   .timer {
+//   //     margin-top: 2rem;
+//   //     text-align: center;
+
+//   //     .seconds {
+//   //       font-size: 3rem;
+//   //       // Helvetica has tabular numbers (fixed width), which looks better
+//   //       // for a timer, doesn't jump all over the place.
+//   //       font-family: Helvetica, Arial, sans-serif;
+//   //       color: green;
+//   //     }
+//   //     &.lessThan10 {
+//   //       .seconds {
+//   //         color: orange;
+//   //       }
+//   //     }
+//   //     &.lessThan5 {
+//   //       .seconds {
+//   //         color: red;
+//   //       }
+//   //     }
+//   //   }
+//   // }
+   
+//   @fluidGridColumnWidth: 8.33333%; 
+//   @fluidGridGutterWidth: 2%;
+  
+//   .player-profile {
+//     display: flex;
+//     flex-direction: column;
+//     width: 24rem; 
+//     min-height: 100%;
+//     align-items: center;
+//     padding: 3rem 4rem;
+
+//     .profile-avatar {
+//       width: 8rem;
+//       height: 8rem;
+//       margin: 3rem 0;
+//     }
+
+//     .profile-score {
+//       text-align: center;
+//       span {
+//         font-size: 3rem;
+//         font-weight: bold;
+//       }
+//     }
+
+//     .timer {
+//       margin-top: 2rem;
+//       text-align: center;
+
+//       .seconds {
+//         font-size: 3rem;
+//         // Helvetica has tabular numbers (fixed width), which looks better
+//         // for a timer, doesn't jump all over the place.
+//         font-family: Helvetica, Arial, sans-serif;
+//         color: green;
+//       }
+//       &.lessThan10 {
+//         .seconds {
+//           color: orange;
+//         }
+//       }
+//       &.lessThan5 {
+//         .seconds {
+//           color: red;
+//         }
+//       }
+//     }
+//   }
+
+
+  
+//   .task {
+
+//    .task-stimulus{
+//       .task-instruction{
+//         position: relative;  
+//         left: (@fluidGridColumnWidth * 3);
+//         padding-top: (@fluidGridGutterWidth / 2); // add half a gutter width of padding to the top
+//         margin-bottom: (@fluidGridGutterWidth / 2);
+//         //width: 1243px;
+//         //height: 899px;
+//         //height: 100%; 
+//         //margin: 0 auto;
+//       }
+
+//       .task-statement{
+//         position: relative;
+//         left: (@fluidGridColumnWidth * 3);
+//         padding-top: (@fluidGridGutterWidth / 2); // add half a gutter width of padding to the top
+//         margin-bottom: (@fluidGridGutterWidth / 2);  
+//         //left: 300px;
+//         //top: 140px; 
+//       }
+
+//     }
+
+//     .task-container{
+//       position: relative;
+//       left: (@fluidGridColumnWidth * 5);
+//       top: (@fluidGridColumnWidth * 2);
+//       padding-top: (@fluidGridGutterWidth / 2); // add half a gutter width of padding to the top
+//       margin-bottom: (@fluidGridGutterWidth / 2);
+//       //width: 1243px;
+//       //height: 899px;
+//       //left: 500px;
+//       //top: 200px;
+//     }
+
+//     .task-container-reason{ 
+//       position: relative;
+//       left: (@fluidGridColumnWidth * 2);  
+//       padding-top: (@fluidGridGutterWidth*2); // add half a gutter width of padding to the top
+//       margin-bottom: (@fluidGridGutterWidth / 2);
+//       align-content: center;
+//     }
+    
+//     .task-response {  
+//       margin: 3rem 0 0;
+
+//       form {
+//         width: 45rem;
+//         margin-bottom: (@fluidGridGutterWidth / 2);
+//         margin-top: (@fluidGridGutterWidth * 1.5);
+
+//         button[type="submit"] {  
+//           width: (@fluidGridColumnWidth * 3); 
+//           margin: 0 auto; 
+//           margin-top: (@fluidGridGutterWidth * 1.5);
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//           //margin-top: 4rem; 
+//         }    
+//       }
+
+//       .response-submitted {
+//         background-color: #faf8f8;
+//         padding: 2rem;
+//         border-radius: 0.4rem;
+        
+//         h5 {
+//           margin: 0 0 0.5rem;
+//           font-size: inherit;
+//         }
+//       }
+
+//     }
+//   }
+
+//   .social-exposure {
+//     margin: 4rem;
+
+//     .alter {
+//       display: flex;
+//       padding-right: 3rem;
+
+//       img {
+//         width: 6rem;
+//         height: 6rem;
+//         margin-right: 3rem;
+//       }
+
+//       .range {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//       }
+//     }
+//   }
+// }
+
+button {
+  //padding: 0.8rem 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid lightgray;
+  background-color: #eee;
+
+  &:hover {
+    background-color: #ddd;
+  }
+}
+
+.blackButton{
+  background-color: black;
+  color: white;
+}
+
+.whiteButton{
+  background-color: white;
+  color: black;
+}
+
+
+// .instructions,
+// .quiz,
+// .exit-survey {
+//   button {
+//     margin: 2rem 1rem 0 0;
+//   }
+
+//   label {
+//     display: block;
+//     margin: 2rem 0 1rem;
+//   }
+
+//   input[type="text"],
+//   input[type="number"] {
+//     padding: 0.3rem 0.5rem;
+//     border-radius: 0.3rem;
+//     border: 1px solid lightgray;
+//   }
+
+//   input[type="radio"] {
+//     margin-right: 0.5rem;
+//   }
+
+//   textarea {
+//     padding: 0.3rem 0.5rem;
+//     border-radius: 0.3rem;
+//     border: 1px solid rgb(246, 243, 243);
+//   }
+// }
+
+.exit-survey {
+  .form-line {
+    display: flex;
+
+    & > div {
+      margin-right: 30px;
+
+      textarea {
+        min-height: 90px;
+        width: 100%;
+      }
+    }
+
+    &.thirds {
+      & > div {
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 30%;
+
+        label {
+          min-height: 36px;
+        }
+      }
+    }
+  }
+}
+
+.finished {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// // for the task bits 
+
+
