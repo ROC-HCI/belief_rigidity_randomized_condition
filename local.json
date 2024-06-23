@@ -2,14 +2,14 @@
   "admins": [
     {
       "username": "admin",
-      "password": "proma"
+      "password": ""
     }
   ],
 
   "galaxy.meteor.com": {
     "env": {
       "DEPLOY_HOSTNAME": "galaxy.meteor.com",
-      "MONGO_URL": "mongodb+srv://chris:     s@cluster0.qxzbhfz.mongodb.net/chrisDevPurpose?retryWrites=true&w=majority"
+      "MONGO_URL": ""
     }
   }
   ,
